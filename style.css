@@ -8,32 +8,40 @@ h1,h2,h3{
     text-align: center;
 }
 body{
-    background-color: rgb(39, 35, 35);
-    color: white;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
 #about{
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: rgb(22, 20, 20);
+    color: rgb(247, 240, 240);
 }
 #chapter{
     margin: 20px 5%px;
-    background-color: rgb(41, 36, 41);
+    background-color: rgb(247, 238, 247);
+    color: rgb(0, 0, 0);
 }
 .thumbnail{
     width: 130px;
     height: 130px;
     border-radius: 50%;
     padding: 2px;
-    border: 2px turquoise solid;
+    border: 2px rgb(8, 8, 8) solid;
 }
 div.centre{
     text-align: center;
 }
 footer{
     background-color: rgb(28, 31, 31);
+    color: white;
 }
 footer,section{
     padding: 5%;
+}
+hr{
+    border: 2px rgb(110, 107, 112) solid;
+    width: 200px;
+    position: relative;
+}
+#first{
+    padding: 2px 5% 2px 5%;
 }
