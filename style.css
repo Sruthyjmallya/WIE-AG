@@ -61,11 +61,10 @@ li a:hover{
     background-color: #6b288a;
     color: white;
 }
-.card-img-top{
-    padding: 5px;
+.border-violet,.btn-outline-violet{
+    border: 1px #6b288a solid;
 }
-.card{
-    margin: 1%;
-    width: 350px;
-    height: 300px;;
+.btn-outline-violet:hover{
+    background-color: #6b288a;
+    color: white;
 }
