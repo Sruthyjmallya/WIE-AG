@@ -16,7 +16,7 @@ body{
     background-color: #6b288a;
     color: rgb(247, 240, 240);
 }
-#execom{
+#chapter{
     margin: 20px 5%px;
     background-color: rgb(255, 255, 255);
     color: #6b288a;
@@ -61,10 +61,11 @@ li a:hover{
     background-color: #6b288a;
     color: white;
 }
-.btn-outline-violet,.border-violet{
-    border: 1px #6b288a solid;
+.card-img-top{
+    padding: 5px;
 }
-.btn-outline-violet:hover{
-    background-color: #6b288a;
-    color: white;
+.card{
+    margin: 1%;
+    width: 350px;
+    height: 300px;;
 }
