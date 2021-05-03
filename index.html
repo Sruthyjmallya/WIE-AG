@@ -5,8 +5,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="./style.css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg bg-violet">
@@ -29,10 +31,10 @@
                         <a class="nav-link" href="#events">Events</a>
                     </li>
                     <li class="nav-tem">
-                        <a class="nav-link" href="#chapter">Chapter</a>
+                        <a class="nav-link" href="#execom">Execom</a>
                     </li>
                     <li class="nav-tem">
-                        <a class="nav-link" href="#contacts">Contacts</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -83,37 +85,46 @@
         <section id="events">
             <div id="upcoming">
                 <h2>Upcoming Events</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/talk section.jpeg" alt="talk section">
-                            <div class="card-body centre">
-                              <a href="https://bit.ly/3eBFvWJ" class="btn btn-outline-primary">Register</a>
-                            </div>
+                <div class="card-deck">
+                    <div class="card border-violet">
+                        <img class="card-img-top" src="./images/talk section.jpeg" alt="talk section">
+                        <div class="card-footer text-center">
+                          <a href="https://bit.ly/3eBFvWJ" class="btn btn-outline-violet">Register</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/doodle.jpeg" alt="doodle">
-                            <div class="card-body centre">
-                              <a href="https://bit.ly/MagnaVox" class="btn btn-outline-primary">Register</a>
-                            </div>
+                    <div class="card border-violet">
+                        <img class="card-img-top" src="./images/doodle.jpeg" alt="doodle">
+                        <div class="card-footer text-center">
+                          <a href="https://bit.ly/MagnaVox" class="btn btn-outline-violet">Register</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/tech it out.jpeg" alt="tech it out">
-                            <div class="card-body centre">
-                              <a href="https://bit.ly/Tech_It_Out" class="btn btn-outline-primary">Register</a>
-                            </div>
+                    <div class="card border-violet">
+                        <img class="card-img-top" src="./images/tech it out.jpeg" alt="tech it out">
+                        <div class="card-footer text-center">
+                          <a href="https://bit.ly/Tech_It_Out" class="btn btn-outline-violet">Register</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="recent">
+                <h2>Recent</h2>
+                <div class="row">
+                    <div class="col-m-3">
+
+                    </div>
+                    <div class="col-m-3">
+                        
+                    </div>
+                    <div class="col-m-3">
+                        
+                    </div>
+                    <div class="col-m-3">
+                        
+                    </div>
+                </div>
             </div>
         </section>
-        <section id="chapter">
+        <section id="execom">
             <h2>WIE Chapter</h2>
             <div class="row">
                 <div class="col-md centre">
@@ -133,7 +144,7 @@
                 </div>
             </div>
         </section>
-        <footer id="contacts">
+        <footer id="contact">
             <div class="row">
                 <div class="col-md">
                     <h6>Quick Links</h6>
