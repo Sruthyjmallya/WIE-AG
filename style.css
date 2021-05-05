@@ -43,6 +43,7 @@ footer,section{
 }
 hr{
     border: 1px grey solid;
+    background-color: grey;
 }
 hr.heading{
     border: 1px rgb(110, 107, 112) solid;
@@ -75,4 +76,12 @@ li a:hover{
     background-color: #551672;
     color:rgb(241, 232, 232);
     box-shadow: 5px 5px 5px lightgrey;
+}
+.card-columns{
+    @media screen (min-width: 992px){
+        column-count: 2;
+    }
+}
+.ht2{
+    height: 230px;
 }
