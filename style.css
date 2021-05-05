@@ -64,7 +64,20 @@ li a:hover{
 .border-violet,.btn-outline-violet{
     border: 1px #6b288a solid;
 }
-.btn-outline-violet:hover{
+.btn-violet,.btn-outline-violet:hover{
     background-color: #6b288a;
     color: white;
 }
+.btn-violet:hover{
+    background-color: #551672;
+    color:rgb(241, 232, 232);
+    box-shadow: 5px 5px 5px lightgrey;
+}
+.card-columns {
+    @include media-breakpoint-only(md) {
+      column-count: 2;
+    }
+    @include media-breakpoint-only(lg) {
+      column-count: 3;
+    }
+  }
