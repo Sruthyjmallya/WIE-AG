@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 ul.none{
     list-style-type: none;
 }
@@ -73,11 +76,3 @@ li a:hover{
     color:rgb(241, 232, 232);
     box-shadow: 5px 5px 5px lightgrey;
 }
-.card-columns {
-    @include media-breakpoint-only(md) {
-      column-count: 2;
-    }
-    @include media-breakpoint-only(lg) {
-      column-count: 3;
-    }
-  }
