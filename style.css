@@ -72,6 +72,10 @@ li a:hover{
     background-color: #6b288a;
     color: white;
 }
+.btn-white,.btn-outline-white:hover{
+    background-color: white;
+    color: #6b288a;
+}
 .btn-violet:hover{
     background-color: #551672;
     color:rgb(241, 232, 232);
@@ -102,4 +106,8 @@ li a:hover{
 }
 @media screen and (max-width:992px){
     h1,h2 { margin-top:10%; }
+}
+.circle{
+    border-radius: 50%;
+    background-color: #6b288a;
 }
