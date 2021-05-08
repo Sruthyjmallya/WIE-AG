@@ -110,4 +110,6 @@ li a:hover{
 .circle{
     border-radius: 50%;
     background-color: #6b288a;
+    width: 200px;
+    height: 200px;
 }
